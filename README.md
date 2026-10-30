@@ -12,6 +12,12 @@ Like the state of IT, it's neither dead nor alive.
 
 The previews illustrate the palette; applications may use the colors differently. Click an image to see it at full size.
 
+## Install
+
+Each application folder contains its theme and installation instructions:
+
+- [Ghostty](ghostty/README.md)
+
 ## Palette
 
 Both variants share green accents and muted surfaces, with colors chosen for their respective backgrounds.

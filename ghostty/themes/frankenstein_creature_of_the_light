@@ -1,0 +1,29 @@
+# https://github.com/apastuhov/frankenstein
+# Generated from palettes.json by ghostty/generate.py.
+# Edit the source palette, then regenerate this file.
+
+background = #F0F2ED
+foreground = #30362F
+cursor-color = #657713
+cursor-text = #F0F2ED
+selection-background = #9EAD69
+selection-foreground = #30362F
+split-divider-color = #E0E6DF
+
+# ANSI colors 0-15.
+palette = 0=#30362F
+palette = 1=#A03350
+palette = 2=#657713
+palette = 3=#946300
+palette = 4=#405D89
+palette = 5=#76547F
+palette = 6=#176B70
+palette = 7=#596653
+palette = 8=#777777
+palette = 9=#B03D5A
+palette = 10=#566610
+palette = 11=#805500
+palette = 12=#354F7A
+palette = 13=#82478E
+palette = 14=#155D62
+palette = 15=#263323
