@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="820" viewBox="0 0 960 820" role="img">
+<title>creature_of_the_light terminal and palette preview</title>
+<rect width="960" height="820" rx="12" fill="#F0F2ED"/>
+<path d="M12 0H948Q960 0 960 12V72H0V12Q0 0 12 0" fill="#E0E6DF"/>
+<text x="32" y="45" fill="#30362F" font-family="monospace" font-size="22">creature_of_the_light · terminal preview</text>
+<g font-family="monospace" font-size="21" xml:space="preserve">
+<text x="32" y="120" fill="#30362F"><tspan fill="#657713">dotfiles</tspan> on <tspan fill="#405D89">main</tspan></text>
+<text x="32" y="156" fill="#30362F"><tspan fill="#657713">❯</tspan> git status --short</text>
+<text x="32" y="192" fill="#30362F"><tspan fill="#657713">M </tspan> ghostty/config</text>
+<text x="32" y="228" fill="#30362F"><tspan fill="#176B70">??</tspan> nvim/init.lua</text>
+<text x="32" y="286" fill="#777777">muted text <tspan fill="#946300">  warning</tspan><tspan fill="#A03350">  error</tspan></text>
+<text x="32" y="322" fill="#566610">3 notifications</text>
+<rect x="280" y="299" width="180" height="30" fill="#9EAD69"/>
+<text x="290" y="322" fill="#30362F">selected text</text>
+<text x="32" y="360" fill="#657713">❯</text>
+<rect x="58" y="340" width="13" height="25" fill="#657713"/>
+</g>
+<text x="32" y="420" fill="#30362F" font-family="sans-serif" font-size="22" font-weight="bold">Surfaces and interaction</text>
+<rect x="32" y="450" width="38" height="38" fill="#F0F2ED" stroke="#777777"/>
+<text x="84" y="466" fill="#30362F" font-family="sans-serif" font-size="16">Background</text>
+<text x="84" y="486" fill="#30362F" font-family="monospace" font-size="15">#F0F2ED</text>
+<rect x="492" y="450" width="38" height="38" fill="#30362F" stroke="#777777"/>
+<text x="544" y="466" fill="#30362F" font-family="sans-serif" font-size="16">Main text</text>
+<text x="544" y="486" fill="#30362F" font-family="monospace" font-size="15">#30362F</text>
+<rect x="32" y="508" width="38" height="38" fill="#E0E6DF" stroke="#777777"/>
+<text x="84" y="524" fill="#30362F" font-family="sans-serif" font-size="16">Raised surface / cursor line</text>
+<text x="84" y="544" fill="#30362F" font-family="monospace" font-size="15">#E0E6DF</text>
+<rect x="492" y="508" width="38" height="38" fill="#9EAD69" stroke="#777777"/>
+<text x="544" y="524" fill="#30362F" font-family="sans-serif" font-size="16">Selection background</text>
+<text x="544" y="544" fill="#30362F" font-family="monospace" font-size="15">#9EAD69</text>
+<rect x="32" y="566" width="38" height="38" fill="#30362F" stroke="#777777"/>
+<text x="84" y="582" fill="#30362F" font-family="sans-serif" font-size="16">Selection text</text>
+<text x="84" y="602" fill="#30362F" font-family="monospace" font-size="15">#30362F</text>
+<rect x="492" y="566" width="38" height="38" fill="#657713" stroke="#777777"/>
+<text x="544" y="582" fill="#30362F" font-family="sans-serif" font-size="16">Cursor</text>
+<text x="544" y="602" fill="#30362F" font-family="monospace" font-size="15">#657713</text>
+<text x="32" y="666" fill="#30362F" font-family="sans-serif" font-size="22" font-weight="bold">ANSI palette · normal and bright</text>
+<rect x="32" y="688" width="32" height="32" fill="#30362F" stroke="#777777"/>
+<text x="70" y="708" fill="#30362F" font-family="monospace" font-size="14">0</text>
+<rect x="144" y="688" width="32" height="32" fill="#A03350" stroke="#777777"/>
+<text x="182" y="708" fill="#30362F" font-family="monospace" font-size="14">1</text>
+<rect x="256" y="688" width="32" height="32" fill="#657713" stroke="#777777"/>
+<text x="294" y="708" fill="#30362F" font-family="monospace" font-size="14">2</text>
+<rect x="368" y="688" width="32" height="32" fill="#946300" stroke="#777777"/>
+<text x="406" y="708" fill="#30362F" font-family="monospace" font-size="14">3</text>
+<rect x="480" y="688" width="32" height="32" fill="#405D89" stroke="#777777"/>
+<text x="518" y="708" fill="#30362F" font-family="monospace" font-size="14">4</text>
+<rect x="592" y="688" width="32" height="32" fill="#76547F" stroke="#777777"/>
+<text x="630" y="708" fill="#30362F" font-family="monospace" font-size="14">5</text>
+<rect x="704" y="688" width="32" height="32" fill="#176B70" stroke="#777777"/>
+<text x="742" y="708" fill="#30362F" font-family="monospace" font-size="14">6</text>
+<rect x="816" y="688" width="32" height="32" fill="#596653" stroke="#777777"/>
+<text x="854" y="708" fill="#30362F" font-family="monospace" font-size="14">7</text>
+<rect x="32" y="746" width="32" height="32" fill="#777777" stroke="#777777"/>
+<text x="70" y="766" fill="#30362F" font-family="monospace" font-size="14">8</text>
+<rect x="144" y="746" width="32" height="32" fill="#B03D5A" stroke="#777777"/>
+<text x="182" y="766" fill="#30362F" font-family="monospace" font-size="14">9</text>
+<rect x="256" y="746" width="32" height="32" fill="#566610" stroke="#777777"/>
+<text x="294" y="766" fill="#30362F" font-family="monospace" font-size="14">10</text>
+<rect x="368" y="746" width="32" height="32" fill="#805500" stroke="#777777"/>
+<text x="406" y="766" fill="#30362F" font-family="monospace" font-size="14">11</text>
+<rect x="480" y="746" width="32" height="32" fill="#354F7A" stroke="#777777"/>
+<text x="518" y="766" fill="#30362F" font-family="monospace" font-size="14">12</text>
+<rect x="592" y="746" width="32" height="32" fill="#82478E" stroke="#777777"/>
+<text x="630" y="766" fill="#30362F" font-family="monospace" font-size="14">13</text>
+<rect x="704" y="746" width="32" height="32" fill="#155D62" stroke="#777777"/>
+<text x="742" y="766" fill="#30362F" font-family="monospace" font-size="14">14</text>
+<rect x="816" y="746" width="32" height="32" fill="#263323" stroke="#777777"/>
+<text x="854" y="766" fill="#30362F" font-family="monospace" font-size="14">15</text>
+</svg>
