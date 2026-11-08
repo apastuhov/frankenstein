@@ -1,0 +1,16 @@
+build:
+    python3 generate.py
+
+link:
+    #!/bin/sh
+    set -eu
+    destination="${XDG_CONFIG_HOME:-$HOME/.config}/ghostty/themes"
+    mkdir -p "$destination"
+    for name in frankenstein_creature_of_the_light frankenstein_creature_of_the_night; do
+        source="$PWD/themes/$name"
+        target="$destination/$name"
+        if [ -L "$target" ] && [ "$(readlink "$target")" = "$source" ]; then
+            continue
+        fi
+        ln -s "$source" "$target"
+    done

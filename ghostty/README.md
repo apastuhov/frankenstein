@@ -1,15 +1,13 @@
 # Frankenstein for Ghostty
 
-Clone the repository into a permanent location, then link its theme files into Ghostty's theme directory:
+From the repository root, generate and link the themes with [just](https://just.systems/):
 
 ```sh
-git clone https://github.com/apastuhov/frankenstein.git "$HOME/frankenstein"
-mkdir -p "${XDG_CONFIG_HOME:-$HOME/.config}/ghostty/themes"
-ln -s "$HOME/frankenstein/ghostty/themes/frankenstein_creature_of_the_light" "${XDG_CONFIG_HOME:-$HOME/.config}/ghostty/themes/frankenstein_creature_of_the_light"
-ln -s "$HOME/frankenstein/ghostty/themes/frankenstein_creature_of_the_night" "${XDG_CONFIG_HOME:-$HOME/.config}/ghostty/themes/frankenstein_creature_of_the_night"
+just ghostty::build
+just ghostty::link
 ```
 
-The links let Ghostty read the files in the clone. If you already cloned the repository elsewhere, substitute that path for `$HOME/frankenstein`.
+Keep the repository at the same path so the links remain valid. The link command leaves existing files untouched; remove or move conflicting files before running it.
 
 Select the themes in Ghostty:
 
@@ -17,4 +15,4 @@ Select the themes in Ghostty:
 theme = light:frankenstein_creature_of_the_light,dark:frankenstein_creature_of_the_night
 ```
 
-To update the themes, run `git -C "$HOME/frankenstein" pull` and reload Ghostty's configuration.
+After changing or updating the theme files, reload Ghostty's configuration.

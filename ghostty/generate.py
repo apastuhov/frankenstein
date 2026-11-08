@@ -6,6 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 if __name__ == "__main__":
+    # Allow direct execution from any directory to import the shared generator code.
     sys.path.insert(0, str(ROOT))
 
 from _generator.palette import ANSI, load_palettes, write_outputs
