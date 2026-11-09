@@ -1,0 +1,1 @@
+require("frankenstein").load("light")

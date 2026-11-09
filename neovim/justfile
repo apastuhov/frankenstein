@@ -1,0 +1,13 @@
+build:
+    python3 generate.py
+
+link:
+    #!/bin/sh
+    set -eu
+    destination="${XDG_DATA_HOME:-$HOME/.local/share}/nvim/site/pack/frankenstein/start"
+    target="$destination/frankenstein"
+    mkdir -p "$destination"
+    if [ -L "$target" ] && [ "$(readlink "$target")" = "$PWD" ]; then
+        exit 0
+    fi
+    ln -s "$PWD" "$target"

@@ -17,6 +17,7 @@ The previews illustrate the palette; applications may use the colors differently
 Each application folder contains its theme and installation instructions:
 
 - [Ghostty](ghostty/README.md)
+- [Neovim](neovim/README.md)
 
 ## Palette
 
