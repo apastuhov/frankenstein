@@ -2,4 +2,5 @@
 
 PORTS = {
     "ghostty": "ghostty/generate.py",
+    "neovim": "neovim/generate.py",
 }

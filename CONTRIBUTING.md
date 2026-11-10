@@ -16,6 +16,10 @@ Each application folder contains its theme, installation README, and, when avail
 - Use red for errors, gold for warnings, green for success and information, and teal for hints. Pair selection and accent backgrounds with readable foregrounds.
 - Keep the same color roles in both variants, adapting them where an application requires it.
 
+To change shared colors, edit the root `palettes.json` and run `just build`. This validates the palette, updates the README tables and previews, and generates all registered ports. Use `just ghostty::build` to generate just one port; substitute another registered port name as needed. Commit generated files so installation does not require Python.
+
+To regenerate only the SVG previews, run `just assets`. To regenerate only the README palette tables, run `just docs`.
+
 ### Adding a port
 
 Give each application its own directory with installation and update instructions in `README.md` and its distributable files in the layout the application needs. 
@@ -30,9 +34,4 @@ The orchestrator prepares all outputs before writing and rejects duplicate outpu
  a filesystem error during writing can still leave partial updates. 
 If a future port requires another language or toolset, extend the manifest and runner with an explicit interface for it.
 
-### Distribution branches
-
-The main repository is the source of truth. 
-Each application is intended to have its own distribution branch, containing its installable files at the branch root so package managers can consume it. 
-Distribution branches and their publishing automation are not set up yet; do not document a branch as available until it exists. 
-Keep generated files and any required runtime dependencies in the port so it can be distributed independently.
+Neovim's `lua/frankenstein/palette.lua` maps shared colors to roles and derives background tints; `highlights.lua` assigns syntax and UI highlights.
